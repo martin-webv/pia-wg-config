@@ -4,7 +4,10 @@ A Wireguard config generator for Private Internet Access.
 
 ## Usage
 
-`go install github.com/kylegrantlucas/pia-wg-config@latest`
+Change main.go region string for your location
+[PIA Server List](https://serverlist.piaservers.net/vpninfo/servers/v6)
+
+`go install `
 
 `pia-wg-config -o wg0.conf USERNAME PASSWORD`
 
